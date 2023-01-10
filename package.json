@@ -12,13 +12,16 @@
     "chromedriver": "^91.0.1",
     "geckodriver": "^2.0.0",
     "jest": "^27.0.3",
-    "jest-html-reporter": "^3.4.1",
-    "nightwatch": "^1.7.6"
+    "jest-html-reporter": "^3.4.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testNightWatch": "nightwatch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^2.6.8"
+  }
 }
